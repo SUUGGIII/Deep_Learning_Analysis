@@ -918,22 +918,31 @@
                 </div>
             </div>
 
-            <div class="result-highlight" style="margin: 24px 0;">
-                <div class="result-box">
-                    <div class="result-box-label">기존 야외 정확도</div>
-                    <div class="result-box-value red">19.12%</div>
+            <div class="two-col" style="margin-top: 24px;">
+                <div>
+                    <div class="result-highlight" style="margin: 0 0 16px 0;">
+                        <div class="result-box" style="padding: 16px;">
+                            <div class="result-box-label">기존 야외 정확도</div>
+                            <div class="result-box-value red" style="font-size: 32px;">19.1%</div>
+                        </div>
+                        <div class="result-box" style="padding: 16px 5px; border: none; background: transparent;">
+                            <div class="result-box-value" style="font-size: 32px;">→</div>
+                        </div>
+                        <div class="result-box" style="padding: 16px; background: linear-gradient(135deg, #F0FDF4, #DCFCE7); border-color: #A7F3D0;">
+                            <div class="result-box-label">최종 정확도</div>
+                            <div class="result-box-value green" style="font-size: 32px;">60.6%</div>
+                        </div>
+                    </div>
+                    <div class="insight-box success">
+                        <p> <strong>3배 이상 폭발적 향상!</strong> 꼼수(배경 제거, 데이터 혼합)를 버리고 본연의 강건성 최적화에 집중한 정공법이 가장 효과적임을 입증했습니다.</p>
+                    </div>
                 </div>
-                <div class="result-box" style="padding: 28px 10px;">
-                    <div class="result-box-value" style="font-size: 48px;">→</div>
+                <div>
+                    <div class="card" style="text-align: center; padding: 16px;">
+                        <img src="assets/curve_v2.png" alt="가설 3 (정공법) 학습 곡선" style="max-width: 100%; max-height: 220px; border-radius: 0;">
+                        <div style="margin-top: 12px; font-size: 13px; color: var(--text-muted); font-weight: 600;">가설 3 (정공법) 학습 곡선: 60.56%까지 지속 상승</div>
+                    </div>
                 </div>
-                <div class="result-box" style="background: linear-gradient(135deg, #F0FDF4, #DCFCE7); border-color: #A7F3D0;">
-                    <div class="result-box-label">최종 야외 정확도</div>
-                    <div class="result-box-value green">60.56%</div>
-                </div>
-            </div>
-
-            <div class="insight-box success">
-                <p> <strong>3배 이상 폭발적 향상!</strong> 꼼수(배경 제거, 데이터 혼합)를 버리고 딥러닝 본연의 강건성 최적화에 집중한 정공법이 가장 효과적임을 입증했습니다.</p>
             </div>
         </div>
     </div>
